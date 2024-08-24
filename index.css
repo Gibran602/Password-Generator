@@ -161,8 +161,9 @@ hr {
 
   hr {
     width: 90%;
-    bottom: 25%;
-    right: 0;
+    background-color: #2f3e53;
+    height: 1px;
+    border: none;
     margin: 20px auto;
   }
 
