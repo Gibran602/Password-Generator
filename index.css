@@ -71,12 +71,13 @@ body {
   color: #10b981;
 }
 
-hr {
+.separator {
   position: absolute;
-  bottom: 40%;
-  right: 9%;
   background-color: #2f3e53;
-  width: 446px;
+  margin: auto 20px;
+  top: 58%;
+  left: 1%;
+  width: 90%;
   height: 1px;
   border: 1px;
 }
@@ -159,7 +160,7 @@ hr {
     font-size: 18px;
   }
 
-  hr {
+  .separator {
     width: 90%;
     background-color: #2f3e53;
     height: 1px;
@@ -197,7 +198,7 @@ hr {
 @media (max-width: 640px) {
   .container {
     width: 90%;
-    height: 500px;
+    height: 480px;
     margin: 30px auto;
     padding: 15px;
     flex-direction: column;
@@ -232,10 +233,10 @@ hr {
     width: 85%;
   }
 
-  hr {
+  .separator {
     position: absolute;
-    bottom: 49%;
-    right: 5%;
+    top: 46%;
+    right: 2%;
     background-color: #2f3e53;
     width: 420px;
     height: 1px;
@@ -280,7 +281,7 @@ hr {
 @media (max-width: 480px) {
   .container {
     width: 92%;
-    height: 500px;
+    height: 480px;
     margin: 20px auto;
     padding: 10px;
     flex-direction: column;
@@ -315,11 +316,11 @@ hr {
     width: 90%;
   }
 
-  hr {
+  .separator {
     position: absolute;
-    right: 8%;
-    top: 43%;
+    top: 44%;
     background-color: #2f3e53;
+    margin: 20px auto;
     width: 266px;
     height: 1px;
     border: 1px;
@@ -366,7 +367,7 @@ hr {
 @media (max-width: 320px) {
   .container {
     width: 92%;
-    height: 440px;
+    height: 410px;
     margin: 10px auto;
     padding: 5px;
     flex-direction: column;
@@ -401,14 +402,14 @@ hr {
     width: 90%;
   }
 
-  hr {
-    position: static;
+  .separator {
+    position: absolute;
+    top: 44%;
     background-color: #2f3e53;
     width: 90%;
     height: 1px;
     border: 1px;
-    margin-top: 30px;
-    margin-bottom: 12px;
+    margin: 20px auto;
   }
 
   .password-container {
@@ -416,7 +417,7 @@ hr {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin-top: 0;
+    margin-top: 24px;
     margin-right: 6px;
   }
 
