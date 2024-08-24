@@ -235,9 +235,9 @@ hr {
   hr {
     position: absolute;
     bottom: 49%;
-    right: 9%;
+    right: 5%;
     background-color: #2f3e53;
-    width: 400px;
+    width: 420px;
     height: 1px;
     border: 1px;
   }
